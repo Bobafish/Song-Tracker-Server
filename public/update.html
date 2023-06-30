@@ -1,0 +1,86 @@
+<!-- /*********************************************************************
+** Program Filename:update.html
+** Author: Jongwon An
+** Date: 6/9/2023
+** Description: contains code for the update page
+** Course : WEB DEVELOPMENT (CS_290_001_S2023)
+** Input: None
+** Output: None
+*********************************************************************/ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jongwon An</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='update.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Music Services</h1>
+    </header>
+    <!-- nav bars -->
+    <nav>
+        <ul>
+            <li><a href = "genre.html">Search by Genre</a></li>
+            <li><a href = "update.html">Update a Song</a> </li>
+            <li><a href = "delete.html">Delete a Song</a> </li>
+            <li><a href = "add.html">Add a Song</a></li>
+            <li><a href = "list.html">List all songs</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- example table -->
+        <h3>List of all Songs</h3>
+        <table id = "tabOfCont">
+            <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>  </th>
+            </tr>
+            <tr>
+                <td>Sweet Child of Mine</td>
+                <td>Guns N Roses</td>
+                <td><button type = "button" >Select</button></td>
+            </tr>
+        </table>
+        <!-- form with all of the inputs -->
+        <form>
+            <div class = "inputs">
+                <label for = "idInput">Id: </label>
+                <input type = "text" name = "id" id = "idInput" readonly>
+            </div>
+            <div class = "inputs">
+                <label for = "titleInput">Title: </label>
+                <input type = "text" name = "title" id = "titleInput">
+            </div>
+            <div class = "inputs">
+                <label for = "artistInput">Artist: </label>
+                <input type = "text" name = "artist" id = "artistInput">
+            </div>
+            <div class = "inputs">
+                <label for = "calendarInput">Calendar: </label>
+                <input type = "date" name = "calendar" id = "calendarInput">
+            </div>
+            <div class = "inputs">
+                <label for = "popularityInput">Popularity :</label>
+                <input type = "number" name = "popularity" id = "popularityInput">
+            </div>
+            <div class = "inputs">
+                <label for = "genreInput">Genre(s): </label>
+                <input type = "text" name = "genre" id = "genreInput">
+            </div>
+            <p>
+                <input type = "submit" value = "Update" id = "up">
+            </p>
+        </form>    
+    </main>
+    <!-- footer -->
+    <footer>
+        <p>&#169 2023 The Music Company  --  Jongwon An</p>
+    </footer>
+</body>
+</html>

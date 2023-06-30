@@ -1,0 +1,62 @@
+<!-- /*********************************************************************
+** Program Filename:list.html
+** Author: Jongwon An
+** Date: 6/9/2023
+** Description: html code for list page
+** Course : WEB DEVELOPMENT (CS_290_001_S2023)
+** Input: None
+** Output: None
+*********************************************************************/ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jongwon An</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='list.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Music Services</h1>
+    </header>
+    <!-- adds a navigation bar -->
+    <nav>
+        <ul>
+            <li><a href = "genre.html">Search by Genre</a></li>
+            <li><a href = "update.html">Update a Song</a> </li>
+            <li><a href = "delete.html">Delete a Song</a> </li>
+            <li><a href = "add.html">Add a Song</a></li>
+            <li><a href = "list.html">List all songs</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- example table format -->
+        <h3>List of all Songs : </h3>
+        <table id = "tabOfCont">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Released</th>
+                <th>Popularity</th>
+                <th>Genre</th>
+            </tr>
+            <tr>
+                <td>647451780b18f86d90834d06</td>
+                <td>Sweet Child of Mine</td>
+                <td>Guns N Roses</td>
+                <td>10/1/1987</td>
+                <td>10</td>
+                <td>Rock</td>
+            </tr>
+        </table>
+            
+    </main>
+    <!-- footer -->
+    <footer>
+        <p>&#169 2023 The Music Company  --  Jongwon An</p>
+    </footer>
+</body>
+</html>

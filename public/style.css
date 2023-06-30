@@ -1,0 +1,83 @@
+/* ********************************************************************
+** Program Filename:style.css
+** Author: Jongwon An
+** Date: 6/9/2023
+** Description: Contains all of the style guidelines
+** Course : WEB DEVELOPMENT (CS_290_001_S2023)
+** Input: None
+** Output: None
+******************************************************************** */
+
+nav{
+    padding: 0%;
+    margin: 0%;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+nav li a{
+    color:black;
+    padding: 10px 14px;
+}
+nav li a:hover{
+    background-color: white;
+}
+nav ul{
+    background-color: antiquewhite;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+    padding-right:0px;
+}
+header{
+    padding : 2%;
+    background-color: darkgray;
+}
+body{
+    background-color: aliceblue;
+    margin : 3%;
+    font-family : helvetica;
+    color:black;
+}
+footer{
+    padding: 2%;
+    background-color: white;
+    color: green;
+}
+main{
+    padding : 5%;
+    background-color: bisque;
+}
+
+.inputs{
+    margin : 6px;
+}
+
+legend{
+    border-style : solid;
+    border-width : thin;
+    padding : 5px;
+    border-color: grey;
+}
+table{
+    border : solid;
+    border-width : thin;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border : solid;
+    border-width : thin;
+    text-align: center;
+}
+th{
+    color:white;
+    background-color: black;
+    border-color: black;
+    padding : 1%;
+    text-align: center;
+}
+.hide{
+    visibility: hidden;
+}
